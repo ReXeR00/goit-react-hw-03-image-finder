@@ -2,8 +2,6 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Overlay, ModalWindow } from './Modal.styled';
 
-const modalRoot = document.querySelector('#modal-root');
-
 class Modal extends Component {
   componentDidMount() {
     window.addEventListener('keydown', this.handleKeyDown);
